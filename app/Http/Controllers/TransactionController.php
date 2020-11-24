@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Transaction;
-use App\Item;
+use App\Thing;
 use Illuminate\Http\Request;
 
 class TransactionController extends Controller
@@ -11,8 +11,8 @@ class TransactionController extends Controller
     public function index()
     {
         return view('pages.transaction.index',[
-            'item' => Item::orderBy('name')->get(),
-            'trasanction_id' => Transaction::where('status','0')->first()
+            'item' => Thing::all(),
+            
         ]);
     }
 

@@ -162,6 +162,9 @@
                                 <li>
                                     <a href="{{ route('distributor.index') }}">Distributor</a>
                                 </li>
+                                <li>
+                                    <a href="{{ route('thing.index') }}">Barang</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -233,7 +236,7 @@
                 <!-- Footer START -->
                 <footer class="footer">
                     <div class="footer-content">
-                        <p class="m-b-0">Copyright © 2020 Adam Bahtiar Firdaus. All rights reserved.</p>
+                        <p class="m-b-0">Copyright © 2020 Danial Abror. All rights reserved.</p>
                         <span>
                             <a href="" class="text-gray m-r-15">Term &amp; Conditions</a>
                             <a href="" class="text-gray">Privacy &amp; Policy</a>

@@ -14,7 +14,7 @@
 </style>
 @endsection
 @section('content')
-<input type="hidden" value="{{ $trasanction_id->id }}" id="transaction_id">
+<input type="hidden" value="" id="transaction_id">
 <div class="">
     <div class="row">
         <div class="col-md-4">

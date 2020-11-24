@@ -25,6 +25,7 @@ Route::resource('discount', 'DiscountController');
 route::patch('barang/update/{item}','DistributorController@update')->name('barang.update');
 Route::resource('distributor', 'DistributorController');
 Route::resource('transaction', 'TransactionController');
+Route::resource('thing', 'ThingController');
 Route::resource('detailtransaction', 'DetailTransactionController');
 Route::get('getitem/{id}', 'DistributorController@getitem')->name('getitem');
 Route::get('getavailabletranscation', 'TransactionController@getavailabletranscation')->name('getavailabletranscation');
